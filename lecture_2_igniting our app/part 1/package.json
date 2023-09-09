@@ -1,0 +1,22 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "this is namaste react by abhi",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekHegde2000/Namaste_React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Abhishek Hegde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekHegde2000/Namaste_React/issues"
+  },
+  "homepage": "https://github.com/abhishekHegde2000/Namaste_React#readme"
+}
