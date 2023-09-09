@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>hello abhishek</h1>
-    </div>
-    <div id="root">
-        <h1>hello namaste  </h1>
-        <!-- this tag will disappear once the react loads app.js. it only happens wiith whatever written inside div  root since react is rendering it. the above h1 tag which is saying hello abhishek remains. -->
-    </div>
+    <!-- create a div with root id -->
+    <!-- When a web page tries to load resources from a different origin (i.e., a different combination of protocol, domain, or port), it's considered a cross-origin request. Browsers have security mechanisms in place to restrict cross-origin interactions by default to protect users' privacy and security. This is known as the "Same-Origin Policy" (SOP). -->
+    <div id="root"></div>
     <!-- add react and react-dom cdn - now we have power to run react. -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- add script.js and through js only get the root element and create a h1 and write hello abhishek -->
+    <!-- <script>
+        const root = document.getElementById('root');
+        const h1 = document.createElement('h1');
+        h1.innerHTML = 'Hello Abhishek';
+        root.appendChild(h1);
+    </script> -->
+    <!-- <script>
+        // write a react code to create a h1 tag and write hi abhi in it
+        const heading = React.createElement("h1" , {} , 'hi abhi - welcome to react');
 
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(heading);
+    </script> -->
     <script src="App.js"></script>
-    <!-- cant put this app.js before importing react with cdn -->
 
 </body>
 </html>

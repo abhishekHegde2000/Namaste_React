@@ -24,8 +24,8 @@ const parent = React.createElement(
                     "This is an h1 tag inside a child div" // Text content of the grandchild element
                 ),
                 React.createElement(
-                    "h1",   // Type of the grandchild element
-                    null,   // Properties for the grandchild element (null in this case)
+                    "h2",   // Type of the grandchild element
+                    {},   // Properties for the grandchild element (null in this case)
                     "This is an h1 tag inside a child div" // Text content of the grandchild element
                 )
             ]
@@ -37,5 +37,3 @@ console.log("Parent : ", JSON.stringify(parent));
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent)
-
-// order matters
