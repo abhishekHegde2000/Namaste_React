@@ -4,6 +4,9 @@
   "description": "this is namaste react by abhi",
 
   "scripts": {
+    
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
