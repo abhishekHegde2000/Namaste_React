@@ -6,13 +6,7 @@ const resObj = [
       "rating": 4.8,
       "deliveryTime": 39,
       "logo": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/usjgacltnt2rwla0hcpl",
-      "offers": [
-        {
-          "title": "50% off on Kebabs",
-          "description": "Enjoy 50% off on all Kebab orders today!",
-          "code": "KEBAB50"
-        }
-      ]
+
     },
     {
       "name": "Sagar Ratna",
