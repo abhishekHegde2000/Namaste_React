@@ -1,72 +1,74 @@
-
-
-.header{
+.header {
     display: flex;
-
-        /* this will just give whatever divs present inside header equal 
-        amount of space between
-        since we have 2 divs as of now it looks like right is logo , left is ul */
-    justify-content: space-between; 
+    justify-content: space-between;
     border: 1px solid black
-
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-  
-
-.nav-items{
-    padding: 0px 20px;
-    /* i want all items in here to be at center */
-    display: flex;
-    align-items: center;
-}
-.nav-items ul{
-    display: flex;
-    list-style: none;
-    font-size: 24px;
-    
-    
-}
-.nav-items li{
-    padding: 10px;
-}
-
-.res-card{
-    /* provide a border width 1px with black color and it should be a responcive design */
-    border: 1px solid black;
     width: 200px;
-    height: 300px;
-    margin: 10px 0px;
-    padding: 5px;
-}
-/* give hover effect and transition effect also a pointer */
-.res-card:hover{
-    box-shadow: 0px 0px 10px 0px black;
-    cursor: pointer;
-    transition: 0.5s;
 }
 
-.res-container{
+.nav-items {
+    padding:  0px 20px;
+}
+
+.nav-items > ul {
+    font-size: 24px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px
+}
+
+.res-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    justify-content: start;
 }
 
-
-.res-logo{
-    width: 100%;
-    object-fit: cover;
-}
-.res-card img{
-    width: 100%;
-    object-fit: cover;
-}
-
-.filter-btn{
+.res-card {
+    margin: 5px;
     padding: 5px;
+    width: 200px;
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px
+}
+
+.res-logo {
+    width: 100%;
+}
+
+.filter-btn {
+ margin: 10px;
+ cursor: pointer;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card {
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0
+}
+
+.login {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
 }
